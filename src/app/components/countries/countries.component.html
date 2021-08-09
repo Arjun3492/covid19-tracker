@@ -42,24 +42,24 @@
       </div>
     </div>
     <div class="row my-4">
-      <div class="col p-4">
-        <table class="ui celled table ">
+      <div class="col-sm-12 col-md-6 p-4">
+        <table class="table table-bordered">
           <thead>
             <tr>
-              <th>Date(MM/DD/YY)</th>
-              <th>Cases</th>
-          </tr></thead>
+              <th scope="col">Date(MM/DD/YY)</th>
+              <th scope="col">Cases</th>
+            </tr>
+          </thead>
           <tbody>
             <tr *ngFor="let item of cases| keyvalue">
-              <td data-label="Name">{{item.key}}</td>
-              <td data-label="Age">{{item.value}}</td>
+              <td>{{item.key}}</td>
+              <td>{{item.value}}</td>
             </tr>
-
           </tbody>
         </table>
       </div>
 
-      <div class="col p-4">
+      <div class="col-sm-12 col-md-6 p-4">
         <canvas id="lineChart" width="100" height="100"></canvas>
       </div>
     </div>

@@ -3,3 +3,8 @@
     font-size: 2rem!important;
 }
 }
+@media (max-width: 768px){
+  .col{
+    min-width: 100%;
+  }
+}

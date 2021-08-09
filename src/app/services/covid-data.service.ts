@@ -6,19 +6,25 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root',
 })
 export class CovidDataService {
-  private GlobalUrl =
+  private globalUrl =
   'https://corona.lmao.ninja/v2/countries?yesterday&sort';
 
-  private CountryUrl='https://corona.lmao.ninja/v2/countries/item?yesterday=true&strict=true&query'
+  private countryUrl='https://corona.lmao.ninja/v2/countries/:query?yesterday=true&strict=true&query';
+
+  private historyUrl='https://corona.lmao.ninja/v2/historical/:query?lastdays=10'
 
 
   constructor(private http: HttpClient) {
   }
   getGlobalInfo(){
-    return this.http.get(this.GlobalUrl);
+    return this.http.get(this.globalUrl);
   }
 
   getCountryInfo(country: string){
-   return this.http.get(this.CountryUrl.replace("item",country));
+   return this.http.get(this.countryUrl.replace(":query",country));
+  }
+
+  getHistoricData(country: string){
+    return this.http.get(this.historyUrl.replace(":query",country));
   }
 }

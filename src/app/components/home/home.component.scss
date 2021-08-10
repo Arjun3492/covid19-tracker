@@ -1,16 +1,13 @@
-
-.home{
-  & .ui.form{
-    & .inline.fields{
+.home {
+  & .ui.form {
+    & .inline.fields {
       align-items: baseline;
     }
-   & label {
-     cursor:pointer;
+    & label {
+      cursor: pointer;
+    }
+    & label:first-child {
+      cursor: context-menu;
     }
   }
 }
-// @media (max-width: 768px){
-//   .col{
-//     min-width: 100%;
-//   }
-// }

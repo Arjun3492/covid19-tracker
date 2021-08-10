@@ -1,0 +1,13 @@
+.country {
+  & .ui.form {
+    & .inline.fields {
+      align-items: baseline;
+    }
+    & label {
+      cursor: pointer;
+    }
+    & label:first-child {
+      cursor: context-menu;
+    }
+  }
+}

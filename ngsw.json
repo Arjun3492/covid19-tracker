@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1629999738839,
+  "index": "https://arjun3492.github.io/covid19-tracker/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://arjun3492.github.io/covid19-tracker/favicon.ico",
+        "https://arjun3492.github.io/covid19-tracker/index.html",
+        "https://arjun3492.github.io/covid19-tracker/main.257281dc17663b676375.js",
+        "https://arjun3492.github.io/covid19-tracker/manifest.webmanifest",
+        "https://arjun3492.github.io/covid19-tracker/polyfills.a9b56924adadc5a4b4c7.js",
+        "https://arjun3492.github.io/covid19-tracker/runtime.8aa920cd30a04387d00d.js",
+        "https://arjun3492.github.io/covid19-tracker/styles.0f4db741a7624161cd27.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-128x128.png",
+        "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-144x144.png",
+        "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-152x152.png",
+        "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-192x192.png",
+        "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-384x384.png",
+        "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-512x512.png",
+        "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-72x72.png",
+        "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://arjun3492.github.io/covid19-tracker/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://arjun3492.github.io/covid19-tracker/favicon.ico": "b04219150c3b0ff8af03cfdf8f4dbb0ff4221ef3",
+    "https://arjun3492.github.io/covid19-tracker/index.html": "3069cd2c07616b518a84976323d041af7d68b0d1",
+    "https://arjun3492.github.io/covid19-tracker/main.257281dc17663b676375.js": "41a1c9eec9f5a7c4bd185344373b4143c5e7f9df",
+    "https://arjun3492.github.io/covid19-tracker/manifest.webmanifest": "2eaeb7778e3f99c77858ffea8718d2ee2edbbce7",
+    "https://arjun3492.github.io/covid19-tracker/polyfills.a9b56924adadc5a4b4c7.js": "9c27f0b3e9f2c15da6225be1ec389d8c6c9c2feb",
+    "https://arjun3492.github.io/covid19-tracker/runtime.8aa920cd30a04387d00d.js": "016c58ea4cb64c9b28aba952197d85a957b8fd9b",
+    "https://arjun3492.github.io/covid19-tracker/styles.0f4db741a7624161cd27.css": "1d6112f7bb2502d2b67d5f9fd36fae7cefff4e74"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

@@ -1,5 +1,8 @@
 # Covid19Tracker
 
+This project is hosted on GitPages
+https://arjun3492.github.io/covid19-tracker/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
 
 ## Development server

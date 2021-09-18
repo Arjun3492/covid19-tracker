@@ -23,7 +23,8 @@
         <label>Select Type:</label>
         <div class="field">
           <div class="ui radio checkbox">
-            <input type="radio" name="frequency" checked="checked" id="cases" value="c" #c (click)="updateTable(c.value)" />
+            <input type="radio" name="frequency" checked="checked" id="cases" value="c" #c
+              (click)="updateTable(c.value)" />
             <label for='cases'>Total Cases</label>
           </div>
         </div>
@@ -31,12 +32,6 @@
           <div class="ui radio checkbox">
             <input type="radio" name="frequency" id='deaths' value="d" #d (click)="updateTable(d.value)">
             <label for='deaths'>Deaths</label>
-          </div>
-        </div>
-        <div class="field">
-          <div class="ui radio checkbox">
-            <input type="radio" name="frequency" id='recovered' value="r" #r (click)="updateTable(r.value)">
-            <label for='recovered'>Recovered</label>
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ export class CountriesComponent implements OnInit {
   deaths: object = {};
   recovered: object = {};
   lineChart: any;
-  call:number =0;
+  call: number = 0;
   @ViewChild('c') radioButton!: ElementRef;
 
 
@@ -95,10 +95,7 @@ export class CountriesComponent implements OnInit {
     if (caseType == 'd') {
       this.cases = this.historicData.timeline.deaths;
     }
-    if (caseType == 'r') {
-      this.cases = this.historicData.timeline.recovered;
-    }
-    if(this.call>0){
+    if (this.call > 0) {
       this.lineChart.destroy();
     }
     this.call++;
